@@ -1,0 +1,315 @@
+{
+  "MBS":{
+    "Data":{
+      "Details":[
+        {
+          "ButtonName":"Preview",
+          "ButtonTypeId":"2",
+          "Fields":[
+            {
+              "Name":"Customer Available at Home",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"1",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"CstAvlHome",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Yes",
+                "No"
+              ],
+              "DependencyTag":"Parent",
+              "DropDownTag":"No",
+              "ChildTagName":"reasonNonAvl"
+            },
+            {
+              "Name":"Reason for Non Availability",
+              "DataType":"TEXT",
+              "IsMandatory":"1",
+              "minLength":"1",
+              "maxLength":"20",
+              "Regex":"^[A-Za-z][A-Za-z ]{0,49}$",
+              "Key":"reasonNonAvl",
+              "Value":"",
+              "CtrlType":"TextField",
+              "ErrorMsg":"Invalid Name of contacted person",
+              "Category":"Details",
+              "DropDownItems":[
+
+              ],
+              "DependencyTag":"Child",
+              "DropDownTag":"",
+              "ChildTagName":""
+            },
+            {
+              "Name":"Vehicle Type",
+              "DataType":"CHECKBOX",
+              "IsMandatory":false,
+              "minLength":null,
+              "maxLength":null,
+              "Regex":"",
+              "Key":"vehicleType",
+              "Value":"",
+              "CtrlType":"CheckBox",
+              "ErrorMsg":"InvalidField",
+              "Category":"Details",
+              "DropDownItems":[
+                "2Wheeler",
+                "3Wheeler",
+                "4Wheeler"
+              ]
+            },
+            {
+              "Name":"Applicant agrees to talk with CredResolve Team",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"1",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"AplcntAgreeCredResolve",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Yes",
+                "No"
+              ],
+              "DependencyTag":"Parent",
+              "DropDownTag":"No",
+              "ChildTagName":"RsnAplcntNotAval"
+
+            },
+            {
+              "Name":"Reason of Applicant Not Available",
+              "DataType":"TEXT",
+              "IsMandatory":"1",
+              "minLength":"1",
+              "maxLength":"20",
+              "Regex":"^[A-Za-z][A-Za-z ]{0,49}$",
+              "Key":"RsnAplcntNotAval",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+
+              ],
+              "DependencyTag":"Child",
+              "DropDownTag":"",
+              "ChildTagName":""
+            },
+            {
+              "Name":"Name of contacted person",
+              "DataType":"TEXT",
+              "IsMandatory":"0",
+              "minLength":"1",
+              "maxLength":"20",
+              "Regex":"^[A-Za-z][A-Za-z ]{0,49}$",
+              "Key":"Nmcntprsn",
+              "Value":"",
+              "CtrlType":"TextField",
+              "ErrorMsg":"Invalid Name of contacted person",
+              "Category":"Details",
+              "DropDownItems":[
+
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"Relationship with Applicant",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"0",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"RltionshpAplcnt",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Name of contacted person",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Neighbour",
+                "Security",
+                "Staff",
+                "Colleague",
+                "FamilyMember",
+                "Friend",
+                "Tenant",
+                "Other"
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+            },
+            {
+              "Name":"Customer stays at the location",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"0",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"Cststyloc",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Yes",
+                "No"
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"Timings at which applicant is available",
+              "DataType":"ALPHANUMERIC",
+              "IsMandatory":"0",
+              "minLength":"1",
+              "maxLength":"50",
+              "Regex":"^[A-Za-z0-9][A-Za-z0-9.,/ ]{0,19}$",
+              "Key":"Timingaplcntaval",
+              "Value":"",
+              "CtrlType":"TextField",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"How long has it been since the applicant shifted?",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"0",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"Hwlongaplcntshifted",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Lessthan1month",
+                "1–3months",
+                "3–6months",
+                "Morethan6months"
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"What is the reason for shifting?",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"0",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"Wtrsnshifting",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Field",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Jobrelocation",
+                "Familyreasons",
+                "Propertysold",
+                "Financialissues",
+                "Noidea"
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"Successful Payment Screenshot",
+              "DataType":"IMAGE CAPTURE",
+              "IsMandatory":"0",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"SucssflPymntScrshot",
+              "Value":"",
+              "CtrlType":"Image",
+              "ErrorMsg":"Invalid Image",
+              "Category":"Details",
+              "DropDownItems":[
+
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"Overall recommendation",
+              "DataType":"DROPDOWN",
+              "IsMandatory":"1",
+              "minLength":"",
+              "maxLength":"",
+              "Regex":"",
+              "Key":"Overallrecommendation",
+              "Value":"",
+              "CtrlType":"DropDown",
+              "ErrorMsg":"Invalid Overall recommendation",
+              "Category":"Details",
+              "DropDownItems":[
+                "Select",
+                "Neutral",
+                "Negative"
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            },
+            {
+              "Name":"Remarks",
+              "DataType":"TEXT",
+              "IsMandatory":"1",
+              "minLength":"1",
+              "maxLength":"200",
+              "Regex":"^[A-Za-z][A-Za-z ]{0,49}$",
+              "Key":"RmrksCR",
+              "Value":"",
+              "CtrlType":"TextField",
+              "ErrorMsg":"Invalid Remarks",
+              "Category":"Details",
+              "DropDownItems":[
+
+              ],
+              "DependencyTag":"",
+              "DropDownTag":"",
+              "ChildTagName":""
+
+            }
+          ]
+        }
+      ]
+    },
+    "ResponseCode":"000",
+    "ResponseMessage":"Success"
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_subid_mismatch_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/rl_ll_success" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <LinearLayout android:gravity="bottom|center" android:id="@id/suc_ll_p1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/sbm_logo" android:layout_below="@id/tv_text" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/suc_ll_p2" android:background="@drawable/sb_bg_bottom" android:padding="@dimen/dimen_20" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2">
+            <ImageView android:id="@id/iv_success" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_100" android:src="@mipmap/sb_icon_error" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textSize="@dimen/dimen_25" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_success_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_50" android:text="Error" android:layout_below="@id/iv_success" />
+            <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_success_text_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="Subscriber ID mismatch\nSim Binding required" android:layout_below="@id/tv_success_text" />
+            <Button android:textSize="@dimen/dimen_18" android:textColor="@color/color_blue" android:gravity="center" android:id="@id/btn_success_proceed" android:background="@drawable/sb_bg_button" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="OK" android:maxLines="1" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

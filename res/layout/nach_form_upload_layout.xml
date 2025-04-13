@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/nach_form_upload_layout_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:id="@id/layout_camera_placeholder_image" android:background="@drawable/bg_constraint_layout" android:padding="@dimen/dimen_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_20" app:layout_constraintBottom_toTopOf="@id/ll_btn_placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_camera_placeholder_image" android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/camera_pic" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_btn_placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:weightSum="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <Button android:textSize="@dimen/dimen_16" android:id="@id/btn_open_camera" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:text="@string/click_photo" android:layout_weight="0.5" style="@style/AppDefaultButton" />
+            <Button android:textSize="@dimen/dimen_16" android:id="@id/btn_proceed" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:text="@string/proceed" android:layout_weight="0.5" style="@style/AppDefaultButton" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/prggg_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/fragment_id_card_0" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_front" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.cardview.widget.CardView android:id="@id/card_view_unassigned_leads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" app:cardCornerRadius="@dimen/dimen_10">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/iv_top_view" android:layout_width="@dimen/dimen_220" android:layout_height="@dimen/dimen_50" android:layout_marginRight="10.0dip" android:src="@drawable/ic_blue" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <ImageView android:layout_width="67.0dip" android:layout_height="43.0dip" android:layout_marginLeft="1.0dip" android:src="@drawable/mbs_logo" android:layout_alignParentLeft="true" app:layout_constraintBottom_toBottomOf="@id/iv_top_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/iv_top_view" />
+                        <ImageView android:id="@id/iv_sbm_logo" android:layout_width="@dimen/dimen_100" android:layout_height="@dimen/dimen_50" android:layout_marginLeft="10.0dip" android:src="@mipmap/sbm_logo" android:layout_alignParentRight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10">
+                        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="125.0dip" android:layout_height="125.0dip">
+                            <ImageView android:id="@id/agentPhoto" android:padding="@dimen/dimen_5" android:layout_width="115.0dip" android:layout_height="115.0dip" android:src="@drawable/idcard_fefault_image1" android:scaleType="fitXY" />
+                        </LinearLayout>
+                        <TextView android:textSize="@dimen/dimen_18" android:textStyle="bold" android:textColor="@color/blue_dark" android:gravity="center" android:id="@id/agentName" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+                        <TextView android:textSize="@dimen/dimen_14" android:textStyle="bold" android:textColor="@color/darkgray" android:gravity="center" android:id="@id/designation" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+                        <View android:layout_gravity="center" android:background="@color/darkgray" android:layout_width="250.0dip" android:layout_height="2.0dip" />
+                    </LinearLayout>
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="300.0dip">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                            <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_50" android:text="GP: " android:layout_weight="0.5" />
+                                <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@id/gp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:text="" android:layout_weight="0.5" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:weightSum="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/blue_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="75.0dip" android:text="City  " android:layout_weight="0.5" />
+                                <TextView android:textStyle="bold" android:textColor="@color/blue_dark" android:id="@id/dist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_25" android:text="" android:layout_weight="0.5" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:weightSum="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/blue_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="75.0dip" android:text="State  " android:layout_weight="0.5" />
+                                <TextView android:textStyle="bold" android:textColor="@color/blue_dark" android:id="@id/state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_25" android:text="" android:layout_weight="0.5" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:weightSum="1.0">
+                                <TextView android:textStyle="bold" android:textColor="@color/blue_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="75.0dip" android:text="Agent ID " android:layout_weight="0.5" />
+                                <TextView android:textStyle="bold" android:textColor="@color/blue_dark" android:id="@id/pincode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_25" android:text="" android:layout_weight="0.5" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/btm_right_img" android:background="@drawable/ic_id_card_bottom_right" android:layout_width="256.0dip" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                            <ImageView android:layout_gravity="center" android:layout_width="138.0dip" android:layout_height="@dimen/dimen_60" android:layout_marginLeft="0.0dip" android:foreground="@drawable/id_card_sign" />
+                            <TextView android:textSize="@dimen/dimen_16" android:textColor="@color/blue_dark" android:gravity="center" android:id="@id/myText" android:layout_width="192.0dip" android:layout_height="37.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="30.0dip" android:text="Issuing Authority" android:layout_marginStart="70.0dip" android:layout_marginEnd="150.0dip" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_back" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" app:cardCornerRadius="@dimen/dimen_10">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/iv_top_view1" android:layout_width="@dimen/dimen_220" android:layout_height="@dimen/dimen_50" android:layout_marginRight="10.0dip" android:src="@drawable/ic_blue" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <ImageView android:layout_width="67.0dip" android:layout_height="43.0dip" android:layout_marginLeft="1.0dip" android:src="@drawable/mbs_logo" android:layout_alignParentLeft="true" app:layout_constraintBottom_toBottomOf="@id/iv_top_view1" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/iv_top_view1" />
+                        <ImageView android:id="@id/iv_sbm_logo1" android:layout_width="@dimen/dimen_100" android:layout_height="@dimen/dimen_50" android:layout_marginLeft="10.0dip" android:src="@mipmap/sbm_logo" android:layout_alignParentRight="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <TextView android:textSize="@dimen/dimen_20" android:textStyle="bold" android:textColor="@color/color_blue" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:text="Partners" />
+                    <RelativeLayout android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20">
+                        <ImageView android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/icici_bank_logo" android:layout_alignParentLeft="true" />
+                        <ImageView android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/hdfc_banl_logo" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/indusind_bank_icon" android:layout_alignParentLeft="true" />
+                        <ImageView android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/idfc_bank_logo" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/federal_bank_logo" android:layout_alignParentLeft="true" />
+                        <ImageView android:visibility="visible" android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/yes_bank_logo" android:layout_alignParentRight="true" />
+                        <ImageView android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/idfc_bank_logo" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/zaggle_bank" android:layout_alignParentLeft="true" />
+                        <ImageView android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="50.0dip" android:src="@drawable/idfc_bank_logo" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="200.0dip" android:weightSum="1.0">
+                        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/btm_right_img2" android:layout_width="wrap_content" android:layout_height="180.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/ic_id_card_bottom_right" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                        <TextView android:textStyle="bold" android:textColor="@color/color_blue" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="1.0dip" android:text="Manipal Business Solutions'PARK CENTRA'\n Unit# 703/08,7th Floor in Tower B,\n Sector-30, Gurgaon-122001, Haryana.\nPhone:0124-4020030" android:layout_centerInParent="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_proceed" android:background="@drawable/btn_shadow" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:text="Next" android:maxLines="1" android:textAllCaps="false" />
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/prg_bar_icard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-350.0dip" />
+    </LinearLayout>
+</ScrollView>

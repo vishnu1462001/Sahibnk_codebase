@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/update_details_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView2" android:background="@drawable/gray_bg" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/layout_customer_detail" android:background="@drawable/cell_bg" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_5" android:layout_marginBottom="@dimen/dimen_5">
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/date_time" android:layout_weight="0.5" />
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:id="@id/tv_date_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/referencenumber" android:layout_weight="0.5" />
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:id="@id/tv_refidval" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/status" android:layout_weight="0.5" />
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:id="@id/tv_status" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/remark" android:layout_weight="0.5" />
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:id="@id/tv_reason" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/authcode" android:layout_weight="0.5" />
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:id="@id/tv_authcode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/pan_layout" android:background="@drawable/cell_bg" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:layout_marginBottom="@dimen/dimen_5">
+                <LinearLayout android:id="@id/layoutpancard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5">
+                    <com.mbs.sahipay.fonts.Custom_Regular_Input_Layout android:id="@id/inputtext_panlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_10" style="@style/inputlayout">
+                        <com.google.android.material.textfield.TextInputEditText android:textColor="@color/colorPrimary" android:textColorHint="@color/color_1" android:id="@id/inputtext_panvalue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/panvalue" android:maxLength="10" android:imeOptions="actionDone" />
+                    </com.mbs.sahipay.fonts.Custom_Regular_Input_Layout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/upload_photo_pan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10">
+                    <ImageView android:id="@id/img_pan" android:visibility="visible" android:layout_width="@dimen/dimen_30" android:layout_height="@dimen/dimen_30" android:src="@drawable/ic_photo_camera" android:contentDescription="@null" app:tint="@color/colorPrimary" />
+                    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/color_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="@string/uploadphoto" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/pan_photo" android:padding="@dimen/dimen_10" android:layout_width="@dimen/dimen_100" android:layout_height="@dimen/dimen_100" android:layout_margin="@dimen/dimen_10" android:src="@drawable/ic_fingerprint_black_24dp" android:contentDescription="@null" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/llayout_button" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_40" android:layout_marginTop="@dimen/dimen_40" android:layout_marginBottom="@dimen/dimen_20" android:weightSum="1.0">
+                <com.mbs.sahipay.fonts.Roboto_Regular_Button android:textColor="@color/white" android:id="@id/submit_details_button" android:background="@drawable/btn_shadow" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_10" android:layout_marginRight="@dimen/dimen_10" android:text="@string/submit" android:layout_weight="0.5" />
+                <com.mbs.sahipay.fonts.Roboto_Regular_Button android:textColor="@color/white" android:id="@id/retry_button" android:background="@drawable/btn_shadow" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen_10" android:layout_marginRight="@dimen/dimen_10" android:text="@string/retry" android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar android:id="@id/prg_barrr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

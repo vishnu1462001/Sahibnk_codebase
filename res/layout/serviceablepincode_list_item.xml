@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textSize="@dimen/dimen_14" android:textColor="@color/black_33" android:layout_gravity="center|left" android:id="@id/tv_pincode" android:padding="@dimen/dimen_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        <View android:background="@color/black_33" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_12" android:textColor="@color/colorSecondaryText" android:layout_gravity="start" android:id="@id/tv_content" android:padding="@dimen/dimen_5" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

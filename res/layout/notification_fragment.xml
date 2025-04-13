@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/notification_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_18" android:textColor="@color/black_33" android:gravity="center" android:id="@id/tv_no_notification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="No Notification Found" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_unread_notification_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:layout_marginBottom="@dimen/dimen_5" android:layout_below="@id/tv_no_notification" android:layout_marginStart="@dimen/dimen_5" android:layout_marginEnd="@dimen/dimen_5" />
+            <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_18" android:textColor="@color/cbi_grey2" android:gravity="center" android:id="@id/tv_no_unread_notification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="No Un-Read Notification Found" android:layout_below="@id/rv_unread_notification_list" />
+            <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_18" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_earlier_notification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Earlier Notification" android:layout_below="@id/tv_no_unread_notification" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_read_notification_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:layout_marginBottom="@dimen/dimen_5" android:layout_below="@id/tv_earlier_notification" android:layout_marginStart="@dimen/dimen_5" android:layout_marginEnd="@dimen/dimen_5" />
+            <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_18" android:textColor="@color/cbi_grey2" android:gravity="center" android:id="@id/tv_no_read_notification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="No Read Notification Found" android:layout_below="@id/rv_read_notification_list" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_20">
+        <ProgressBar android:id="@id/prg_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

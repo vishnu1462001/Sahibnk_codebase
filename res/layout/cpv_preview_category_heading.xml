@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textSize="@dimen/dimen_18" android:textColor="@color/textview_heading_text" android:id="@id/category_heading" android:padding="@dimen/dimen_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2" android:layout_marginStart="@dimen/dimen_2" android:layout_marginEnd="@dimen/dimen_2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

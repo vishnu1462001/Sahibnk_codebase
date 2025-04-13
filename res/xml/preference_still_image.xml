@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_info">
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_info_hide" android:key="@string/pref_key_info_hide" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_text_recognition">
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_group_recognized_text_in_blocks" android:key="@string/pref_key_group_recognized_text_in_blocks" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_show_language_tag" android:key="@string/pref_key_show_language_tag" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_show_text_confidence" android:key="@string/pref_key_show_text_confidence" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_object_detection">
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_object_detector_enable_multiple_objects" android:key="@string/pref_key_still_image_object_detector_enable_multiple_objects" android:defaultValue="false" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_object_detector_enable_classification" android:key="@string/pref_key_still_image_object_detector_enable_classification" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_pose_detection">
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_pose_detector_prefer_gpu" android:key="@string/pref_key_pose_detector_prefer_gpu" android:summary="@string/pref_summary_pose_detector_prefer_gpu" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_pose_detector_show_in_frame_likelihood" android:key="@string/pref_key_still_image_pose_detector_show_in_frame_likelihood" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_pose_detector_visualize_z" android:key="@string/pref_key_pose_detector_visualize_z" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_pose_detector_rescale_z" android:key="@string/pref_key_pose_detector_rescale_z" android:defaultValue="true" />
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_pose_detector_run_classification" android:key="@string/pref_key_pose_detector_run_classification" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_segmentation">
+        <SwitchPreference android:persistent="true" android:title="@string/pref_title_segmentation_raw_size_mask" android:key="@string/pref_key_segmentation_raw_size_mask" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_face_detection" />
+    <PreferenceCategory android:title="@string/pref_group_title_face_mesh" />
+</PreferenceScreen>

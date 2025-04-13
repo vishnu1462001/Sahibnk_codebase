@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/dialog_list_bg" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mbs.sahipay.fonts.Roboto_Light_Textview android:textSize="@dimen/font_20" android:textColor="@color/white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:text="" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/rounded_search_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:weightSum="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_search" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/part_search_ico" android:scaleType="centerInside" android:layout_weight="0.2" />
+        <com.mbs.sahipay.fonts.Roboto_Light_Edittext android:textSize="@dimen/dimen_18" android:textColor="@color/color_7" android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/searchBar" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/search_hint" android:maxLines="1" android:layout_weight="0.6" />
+        <ImageView android:layout_gravity="right" android:id="@id/iv_close" android:paddingTop="@dimen/dimen_1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" />
+    </LinearLayout>
+    <ListView android:id="@id/item_list1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

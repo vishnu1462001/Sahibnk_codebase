@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_term_and_conditions_federal_0" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card_view_unassigned_leads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:layout_alignParentTop="true" app:cardCornerRadius="@dimen/dimen_10">
+        <RelativeLayout android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/font_16" android:textStyle="bold" android:textColor="@color/text_manipal_blue" android:gravity="center|top" android:layout_gravity="center_vertical" android:id="@id/cb_term_first" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_50" android:text="@string/photo_and_signature_captured_sucessfully" />
+                <ImageView android:id="@id/iv_otp_successful" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_40" android:src="@drawable/otp_successful" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                    <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_back" android:background="@drawable/btn_shadow" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_5" android:text="@string/cancel" android:maxLines="1" android:layout_weight="0.5" android:textAllCaps="false" />
+                    <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_proceed" android:background="@drawable/btn_shadow" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_5" android:text="Continue" android:maxLines="1" android:layout_weight="0.5" android:textAllCaps="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <ProgressBar android:id="@id/prg_bar_tnc_federal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

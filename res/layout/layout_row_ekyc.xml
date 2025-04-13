@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:weightSum="1.0">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="0.4">
+            <TextView android:textColor="@color/black" android:gravity="center_vertical" android:id="@id/key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Address" android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="0.6">
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="974, Ashok Vihar colony Mawana Meerut " android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

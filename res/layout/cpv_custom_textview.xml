@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/dimen_16" android:textStyle="bold" android:textColor="@color/text_black" android:id="@id/cpv_dynamic_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:layout_marginStart="@dimen/dimen_10"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

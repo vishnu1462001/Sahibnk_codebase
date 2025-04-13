@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/ekyc_fragment_0" android:background="@drawable/gray_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/topbar" android:visibility="gone" layout="@layout/toolbar" />
+    <ImageView android:id="@id/customer_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/customer" android:layout_below="@id/topbar" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/ekyc_recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_button" android:layout_below="@id/customer_image" android:fadeScrollbars="true" />
+    <RelativeLayout android:id="@id/bottom_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_alignParentBottom="true">
+        <Button android:textStyle="bold" android:textColor="@color/white" android:id="@id/btn_next" android:background="@drawable/btn_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SUBMIT" android:textAllCaps="false" android:layout_alignParentEnd="true" />
+        <Button android:textStyle="bold" android:textColor="@color/white" android:background="@drawable/btn_shadow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" android:layout_alignParentLeft="true" android:textAllCaps="false" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/prg_barrr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

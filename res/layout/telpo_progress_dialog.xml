@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/telpo_progress_dialog_0" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0pt" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/telpoProgress_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <ImageView android:id="@id/telpoProgress_image" android:background="@drawable/reset" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0pt" android:gravity="center" android:layout_gravity="center" android:id="@id/telpoProgress_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="35.0dip" />
+    </LinearLayout>
+</LinearLayout>

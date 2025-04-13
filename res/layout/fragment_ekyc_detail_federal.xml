@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_ekyc_detail_federal_0" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:padding="@dimen/dimen_20" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_20" android:layout_above="@id/btm_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textSize="@dimen/dimen_20" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="@string/aadhaar_details" />
+            <ImageView android:id="@id/iv_aadhaar_image" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="@dimen/dimen_20" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:weightSum="1.0">
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aadhaar_name" android:layout_weight="0.5" />
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:id="@id/tv_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" />
+            </LinearLayout>
+            <View android:background="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="1.0">
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aadhaar_gender" android:layout_weight="0.5" />
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:id="@id/tv_gender" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" />
+            </LinearLayout>
+            <View android:background="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="1.0">
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aadhaar_dob" android:layout_weight="0.5" />
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:id="@id/tv_dob" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_weight="0.5" />
+            </LinearLayout>
+            <View android:background="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:weightSum="1.0">
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:gravity="center|left|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/aadhaar_address" android:layout_weight="0.5" />
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_16" android:textColor="@color/cbi_grey2" android:gravity="center|left|top" android:id="@id/tv_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5" />
+            </LinearLayout>
+            <View android:background="@color/cbi_grey2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+            <LinearLayout android:orientation="horizontal" android:padding="@dimen/dimen_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:weightSum="1.0">
+                <CheckBox android:gravity="top" android:id="@id/cbf_term_cond" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text=" " android:buttonTint="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/btm_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/btn_shadow" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="1" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_confirm" app:layout_constraintStart_toStartOf="parent" />
+        <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_confirm" android:background="@drawable/app_button_selector" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm" android:maxLines="1" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_cancel" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ProgressBar android:id="@id/prg_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

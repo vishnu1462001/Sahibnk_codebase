@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_splash_0" android:background="@color/color_1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_15" android:textColor="@color/white" android:id="@id/tv_version" android:padding="@dimen/dimen_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_14" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/sbm_logo" android:background="@drawable/bg_constraint_layout" android:padding="@dimen/dimen_20" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_margin="@dimen/dimen_50" android:src="@mipmap/sbm_logo" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/cpv_base_layout_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/tab_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mbs.sahipay.ui.custom.CustomTabLayout android:id="@id/tab_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:layout_marginStart="@dimen/dimen_2" android:layout_marginEnd="@dimen/dimen_2" app:tabGravity="fill" app:tabMode="auto" app:tabPaddingBottom="4.0dip" app:tabPaddingEnd="8.0dip" app:tabPaddingStart="8.0dip" app:tabPaddingTop="4.0dip" style="@style/RoundedTabLayoutStyle" />
+    </RelativeLayout>
+    <androidx.cardview.widget.CardView android:padding="@dimen/dimen_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10" android:layout_below="@id/tab_container">
+        <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <HorizontalScrollView android:padding="@dimen/dimen_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.cardview.widget.CardView>
+    <ProgressBar android:id="@id/prg_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:indeterminateTint="@color/color_1" />
+</RelativeLayout>

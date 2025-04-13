@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/fragment_capture_document_image_federal_0" android:background="@color/white" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_10" app:layout_constraintBottom_toTopOf="@id/gl_vertical_90" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:layout_gravity="center" android:id="@id/iv_camera_placeholder_image" android:layout_width="250.0dip" android:layout_height="250.0dip" android:src="@drawable/img_photograph" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_instructions" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5">
+                    <TextView android:textSize="@dimen/font_16" android:textStyle="bold" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Instructions:" />
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="Customer Photograph should be clear." />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="Photo should have full face, front view, and eyes open." />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="Photo should present full head from top of hair to bottom of chin." />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="Background should be plain white or off-white." />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="There should not be any distracting shadows on the face or on the background." />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="Head coverings are not permitted except for religious reasons, but facial features from bottom of chin to top of forehead and both edges of the face must be clearly shown." />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center|left|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7." />
+                        <TextView android:textSize="@dimen/font_13" android:textColor="@color/black" android:gravity="center|left|top" android:id="@id/tv_ins_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10" android:text="Expression on the face should look natural." />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/font_13" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:id="@id/tv_sample_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="Sample Photo" />
+                    <ImageView android:layout_gravity="center" android:id="@id/iv_sample_image" android:layout_width="250.0dip" android:layout_height="250.0dip" android:src="@drawable/img_photograph_sample" />
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/gl_vertical_90" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintGuide_end="@dimen/dimen_100" />
+            <Button android:id="@id/btn_open_camera" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_photo" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_proceed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/gl_vertical_90" style="@style/AppDefaultButton" />
+            <Button android:id="@id/btn_proceed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proceed" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_open_camera" app:layout_constraintTop_toBottomOf="@id/gl_vertical_90" style="@style/AppDefaultButton" />
+            <ProgressBar android:id="@id/prggg_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

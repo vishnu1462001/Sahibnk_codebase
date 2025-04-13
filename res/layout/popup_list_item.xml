@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/rl_row" android:padding="@dimen/dimen_5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_18" android:textColor="@color/color_7" android:ellipsize="marquee" android:gravity="start" android:id="@id/tv_title" android:paddingTop="@dimen/dimen_10" android:paddingBottom="@dimen/dimen_10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_18" android:text="abc nativeRelease nativeObject nativeRelease nativeObject nativeRelease nativeObject nativeRelease nativeObject nativeRelease nativeObject nativeRelease nativeObject" android:layout_weight="0.9" />
+        <ImageView android:enabled="false" android:id="@id/radio_button" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dimen_18" android:src="@drawable/radio_checked" android:adjustViewBounds="true" android:layout_weight="0.06" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <View android:background="@color/color_14" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_home_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:tag="binding_1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layout_activity_home" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/activity_home_back" />
+        <com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:id="@id/nav_view" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="fill_parent" app:menu="@menu/activity_home_drawer">
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="@dimen/dimen_15" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Supervisor Details" />
+                <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+                        <ImageView android:padding="@dimen/dimen_5" android:layout_width="@dimen/dimen_45" android:layout_height="@dimen/dimen_45" android:src="@drawable/user_icon_circle" android:layout_alignParentTop="true" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2">
+                        <com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="@dimen/dimen_12" android:id="@id/sup_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" />
+                        <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textSize="@dimen/dimen_12" android:id="@id/sup_mobile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Mobile" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <ProgressBar android:id="@id/pr_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

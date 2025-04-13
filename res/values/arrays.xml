@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MaritalStatus">
+        <item>Select Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widower</item>
+        <item>Divorced</item>
+    </string-array>
+    <array name="OfUsFlag" />
+    <string-array name="bank_names">
+        <item>Bank Name</item>
+        <item>Allahabad Bank</item>
+        <item>Karur Vysya Bank</item>
+        <item>Andhra Bank</item>
+        <item>Kotak Bank</item>
+        <item>Axis Bank</item>
+        <item>Laxmi Vilas Bank</item>
+        <item>Bank of Baroda</item>
+        <item>Odisha State</item>
+        <item>Cooperative Bank</item>
+        <item>Bank of India</item>
+        <item>Oriental Bank of Commerce</item>
+        <item>Bank of Maharashtra</item>
+        <item>Punjab and Sind Bank</item>
+        <item>Canara Bank</item>
+        <item>Punjab National Bank</item>
+        <item>Central Bank of India</item>
+        <item>Shamrao Vitthal Co-operative Bank</item>
+        <item>City Union Bank</item>
+        <item>South Indian Bank</item>
+        <item>Corporation Bank</item>
+        <item>State Bank of Bikaner and Jaipur</item>
+        <item>Deutsche Bank</item>
+        <item>State Bank of Hyderabad</item>
+        <item>Development Credit Bank</item>
+        <item>State Bank of India</item>
+        <item>Dhanlaxmi Bank</item>
+        <item>State Bank of Mysore</item>
+        <item>Federal Bank</item>
+        <item>State Bank of Patiala</item>
+        <item>HDFC Bank</item>
+        <item>State Bank of Travancore</item>
+        <item>HDFC BANK LTD</item>
+        <item>Syndicate Bank</item>
+        <item>ICICI Bank</item>
+        <item>Tamilnad Mercantile Bank Ltd</item>
+        <item>IDBI Bank</item>
+        <item>UCO Bank</item>
+        <item>Indian Bank</item>
+        <item>Union Bank of India</item>
+        <item>Indian Overseas Bank</item>
+        <item>nited Bank of India</item>
+        <item>IndusInd Bank</item>
+        <item>Utkal Grameen Bank</item>
+        <item>ING Vysya Bank</item>
+        <item>Vijaya Bank</item>
+        <item>Jammu and Kashmir Bank</item>
+        <item>Yes Bank Ltd</item>
+        <item>Karnataka Bank Ltd</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="caste_arrays">
+        <item>Caste</item>
+        <item>General</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+    </string-array>
+    <string-array name="categoryID">
+        <item>Select Category</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+        <item>Others</item>
+    </string-array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="current_address_dropdown">
+        <item>Choose Address Type</item>
+        <item>This is my Current Address</item>
+        <item>This is not my Current Address</item>
+    </string-array>
+    <string-array name="device">
+        <item>Mantra</item>
+        <item>Star Tech</item>
+        <item>Morpho</item>
+        <item>Iritech</item>
+    </string-array>
+    <string-array name="drawer_sahipay_tabs">
+        <item>@string/transaction_summary</item>
+        <item>@string/transaction_detail</item>
+        <item>@string/laungaue_setting</item>
+        <item>@string/help</item>
+        <item>@string/logout</item>
+    </string-array>
+    <string-array name="drawer_tabs">
+        <item>Home Screen</item>
+        <item>Cash Transactions</item>
+        <item>Staff Menu</item>
+        <item>Report</item>
+        <item>Last Transaction</item>
+        <item>Rupay Activation</item>
+        <item>Pin Reset</item>
+        <item>Load Key</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="education">
+        <item>Select Education</item>
+        <item>Under-Graduate</item>
+        <item>Graduate</item>
+        <item>Post Graduate</item>
+        <item>Professional</item>
+    </string-array>
+    <string-array name="employment_arrays">
+        <item>Employment Status</item>
+        <item>Self Employed</item>
+        <item>Salaried</item>
+        <item>Regular Wage</item>
+        <item>Labour</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="ethnicity">
+        <item>Select Ethnicity</item>
+        <item>Hindu</item>
+        <item>Christian</item>
+        <item>Buddhist</item>
+        <item>Jain</item>
+        <item>Muslim</item>
+        <item>Parsi</item>
+        <item>Sikh</item>
+        <item>Zorastrian</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="fingers">
+        <item>Select</item>
+        <item>LeftLittle</item>
+        <item>LeftRing</item>
+        <item>LeftMiddle</item>
+        <item>LeftIndex</item>
+        <item>LeftThumb</item>
+        <item>RightThumb</item>
+        <item>RightIndex</item>
+        <item>RightMiddle</item>
+        <item>RightRing</item>
+        <item>RightLittle</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="gender_arrays">
+        <item>Sex</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+    </string-array>
+    <string-array name="house_arrays_roof">
+        <item>House based on Roof Type</item>
+        <item>Pucca/Cement concrete</item>
+        <item>semi-Pucca/CGI sheet</item>
+        <item>Katcha/Thached/Tarpaulin</item>
+        <item>Semi-Kutcha/CGI/Plank walling/Leirang taba</item>
+    </string-array>
+    <string-array name="house_arrays_wall">
+        <item>House based on Wall Type</item>
+        <item>Pucca/Brick Wall</item>
+        <item>semi-Pucca/Half Brick/Full Ecra Wall</item>
+        <item>Katcha/Phaklong/Plastic/Tarpaulin</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="house_req_arrays">
+        <item>Housing Requirement</item>
+        <item>New House</item>
+        <item>Enhancement</item>
+    </string-array>
+    <string-array name="id_proof_arrays">
+        <item>Any Other ID Proof</item>
+        <item>Aadhar</item>
+        <item>Voter ID</item>
+        <item>BPL Card</item>
+        <item>Bank Passbook</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="indusind_fingers">
+        <item>Select</item>
+        <item>Left Little</item>
+        <item>Left Ring</item>
+        <item>Left Middle</item>
+        <item>Left Index</item>
+        <item>Left Thumb</item>
+        <item>Right Thumb</item>
+        <item>Right Index</item>
+        <item>Right Middle</item>
+        <item>Right Ring</item>
+        <item>Right Little</item>
+    </string-array>
+    <string-array name="list_tradeType_value">
+        <item>GOODS</item>
+        <item>SERVICE</item>
+    </string-array>
+    <integer-array name="list_tradeType_value_real">
+        <item>0x00000000</item>
+        <item>0x00000000</item>
+        <item>0x00000009</item>
+    </integer-array>
+    <string-array name="marital_arrays">
+        <item>Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Widow</item>
+        <item>Widower</item>
+        <item>Divorcee</item>
+    </string-array>
+    <string-array name="mission_arrays">
+        <item>Preferred component of Mission</item>
+        <item>Credit Linked Subsidy Scheme</item>
+        <item>Affordable Housing In Partnership</item>
+        <item>Beneficiary LED Construction</item>
+    </string-array>
+    <string-array name="occupationID">
+        <item>Select Occupation</item>
+        <item>ACCOUNTANT</item>
+        <item>ADVERTISING</item>
+        <item>AGRI AND ALLIED ACTIVITIES</item>
+        <item>ARCHITECT</item>
+        <item>ARTISIAN AND CRAFTSMAN</item>
+        <item>ARTIST</item>
+        <item>AUTOMOBILE INDUSTRY</item>
+        <item>BANKER</item>
+        <item>BROKER</item>
+        <item>BUILDER</item>
+        <item>BUSINESS</item>
+        <item>CATERING</item>
+        <item>CIVIL SERVANT</item>
+        <item>CONSTRUCTION</item>
+        <item>CONSULTANT</item>
+        <item>DEFENCE</item>
+        <item>DOCTOR</item>
+        <item>EDUCATION</item>
+        <item>ELECTRONICS AND ELECTRICALS</item>
+        <item>ENGINEER</item>
+        <item>EXPORTS</item>
+        <item>EX-SERVICE MAN</item>
+        <item>FILM INDUSTRY</item>
+        <item>FINANCE</item>
+        <item>GARMENTS</item>
+        <item>GOLDSMITH</item>
+        <item>GRANITES</item>
+        <item>HOME MAKER</item>
+        <item>HOROLOGIST</item>
+        <item>HORTICULTURIST</item>
+        <item>HOTEL INDUSTRY</item>
+        <item>HOUSE KEEPER</item>
+        <item>INDUSTRIALIST</item>
+        <item>INFORMATION TECHNOLOGY</item>
+        <item>INTERIOR DECORATOR</item>
+        <item>INVESTOR</item>
+        <item>JEWELLARY</item>
+        <item>JOURNALIST</item>
+        <item>LAWYER</item>
+        <item>LITERATURE</item>
+        <item>MAGISTRATE</item>
+        <item>MANAGEMENT CONSULTANT</item>
+        <item>MANUFACTURERS</item>
+        <item>MAZON1</item>
+        <item>MEDICAL PRACTITONER</item>
+        <item>MEDICAL REPRESENTATIVES</item>
+        <item>NURSING</item>
+        <item>PACKAGING INDUSTRY</item>
+        <item>PETRO PRODUCTS</item>
+        <item>PHARMACIST</item>
+        <item>PILOT</item>
+        <item>POLITICIAN</item>
+        <item>PRINITNG</item>
+        <item>PUBLICATIONS</item>
+        <item>REAL ESTATE SERVICES</item>
+        <item>RESEARCH</item>
+        <item>RETAIL TRADER</item>
+        <item>RETIRED EMPLOYEE</item>
+        <item>SALES REPRSENTATIVE</item>
+        <item>SCHOLAR</item>
+        <item>SCIENTIST</item>
+        <item>SECRETARY</item>
+        <item>SELF HELP GROUP</item>
+        <item>SELF EMPLOYED</item>
+        <item>SERVICE - CENTRAL GOVERNMENT</item>
+        <item>SERVICE - MULTINATIONAL</item>
+        <item>SERVICE - PRIVATE SECTOR</item>
+        <item>SERVICE - PUBLIC SECTOR</item>
+        <item>SERVICE - STATE GOVERNMENT</item>
+        <item>SERVICE - OTHERS</item>
+        <item>SERVICE SEC-PORTFOLIO MGMNT</item>
+        <item>SHARE CROPPER</item>
+        <item>SMALL SCALE INDUSTRAILIST</item>
+        <item>SPORTS PERSON</item>
+        <item>STEEL AND ALLOYS</item>
+        <item>STOCKIST</item>
+        <item>STORE KEEPER</item>
+        <item>STUDENT</item>
+        <item>SURVEYOR</item>
+        <item>TEACHER / PROFESSOR</item>
+        <item>TEXTILES</item>
+        <item>TRANSPORT OPERATOR</item>
+        <item>UNEMPLOYED</item>
+        <item>WATCHMAN</item>
+        <item>WEAVERS</item>
+        <item>WHOLE SALE TRADERS</item>
+        <item>WORKER</item>
+    </string-array>
+    <string-array name="ownership_arrays">
+        <item>Ownership Status</item>
+        <item>Own</item>
+        <item>Rent</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="pref_entries_face_detector_classification_mode">
+        <item>@string/pref_entries_face_detector_classification_mode_no_classifications</item>
+        <item>@string/pref_entries_face_detector_classification_mode_all_classifications</item>
+    </string-array>
+    <string-array name="pref_entries_face_detector_contour_mode">
+        <item>@string/pref_entries_face_detector_contour_mode_no_contours</item>
+        <item>@string/pref_entries_face_detector_contour_mode_all_contours</item>
+    </string-array>
+    <string-array name="pref_entries_face_detector_landmark_mode">
+        <item>@string/pref_entries_face_detector_landmark_mode_no_landmarks</item>
+        <item>@string/pref_entries_face_detector_landmark_mode_all_landmarks</item>
+    </string-array>
+    <string-array name="pref_entries_face_detector_performance_mode">
+        <item>@string/pref_entries_face_detector_performance_mode_fast</item>
+        <item>@string/pref_entries_face_detector_performance_mode_accurate</item>
+    </string-array>
+    <string-array name="pref_entries_values_pose_detector_performance_mode">
+        <item>@string/pref_entries_pose_detector_performance_mode_fast</item>
+        <item>@string/pref_entries_pose_detector_performance_mode_accurate</item>
+    </string-array>
+    <string-array name="pref_entry_titles_face_mesh_use_case">
+        <item>Bounding Box Only</item>
+        <item>Face Mesh</item>
+        <item>Face Mesh(Simplified Contours only)</item>
+    </string-array>
+    <string-array name="pref_entry_values_face_detector_classification_mode">
+        <item>@string/pref_entry_values_face_detector_classification_mode_no_classifications</item>
+        <item>@string/pref_entry_values_face_detector_classification_mode_all_classifications</item>
+    </string-array>
+    <string-array name="pref_entry_values_face_detector_contour_mode">
+        <item>@string/pref_entry_values_face_detector_contour_mode_no_contours</item>
+        <item>@string/pref_entry_values_face_detector_contour_mode_all_contours</item>
+    </string-array>
+    <string-array name="pref_entry_values_face_detector_landmark_mode">
+        <item>@string/pref_entry_values_face_detector_landmark_mode_no_landmarks</item>
+        <item>@string/pref_entry_values_face_detector_landmark_mode_all_landmarks</item>
+    </string-array>
+    <string-array name="pref_entry_values_face_detector_performance_mode">
+        <item>@string/pref_entry_values_face_detector_performance_mode_fast</item>
+        <item>@string/pref_entry_values_face_detector_performance_mode_accurate</item>
+    </string-array>
+    <string-array name="pref_entry_values_face_mesh_use_case">
+        <item>0</item>
+        <item>1</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="pref_entry_values_pose_detector_performance_mode">
+        <item>@string/pref_entry_values_pose_detector_performance_mode_fast</item>
+        <item>@string/pref_entry_values_pose_detector_performance_mode_accurate</item>
+    </string-array>
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+    </string-array>
+    <string-array name="relation_arrays">
+        <item>Relationship</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Spouse</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>GrandSon</item>
+        <item>GrandDaughter</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="relationship">
+        <item>Select Relationship</item>
+        <item>GRAND SON</item>
+        <item>GRAND DAUGHTER</item>
+        <item>CO-PARCENERS</item>
+        <item>FATHER</item>
+        <item>MOTHER</item>
+        <item>DAUGHTER</item>
+        <item>SON</item>
+        <item>FATHER-IN-LAW</item>
+        <item>MOTHER-IN-LAW</item>
+        <item>DAUGHTER-IN-LAW</item>
+        <item>SON-IN-LAW</item>
+        <item>GRAND FATHER</item>
+        <item>GRAND MOTHER</item>
+        <item>HUSBAND</item>
+        <item>WIFE</item>
+        <item>BROTHER</item>
+        <item>SISTER</item>
+        <item>BROTHER-IN-LAW</item>
+        <item>SISTER-IN-LAW</item>
+        <item>AUNT</item>
+        <item>UNCLE</item>
+        <item>COUSIN</item>
+        <item>GUARDIAN</item>
+        <item>EMPLOYER</item>
+        <item>EMPLOYEE</item>
+        <item>FRIEND</item>
+        <item>COLLEAGUE</item>
+        <item>PARTNER</item>
+        <item>DIRECTOR</item>
+        <item>PROMOTER</item>
+        <item>KARTHA</item>
+        <item>TRUSTEE</item>
+        <item>GUARANTOR</item>
+        <item>INDEMINIFIER</item>
+        <item>NOMINEE</item>
+        <item>REFERRED BY</item>
+        <item>CHAIRMAN</item>
+        <item>MANAGED BY</item>
+        <item>PROPRIETOR</item>
+    </string-array>
+    <string-array name="religion">
+        <item>Select Religion</item>
+        <item>HINDU</item>
+        <item>ZORASTRIAN</item>
+        <item>MUSLIM</item>
+        <item>CHRISTIAN</item>
+        <item>BUDDHIST</item>
+        <item>JAIN</item>
+        <item>PARSI</item>
+        <item>SIKH</item>
+        <item>OTHERS</item>
+    </string-array>
+    <string-array name="religion_arrays">
+        <item>Religion</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Christian</item>
+        <item>Sikh</item>
+        <item>Jainism</item>
+        <item>Buddhism</item>
+        <item>Zoroastrianism</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="salutation">
+        <item>Select Salutation</item>
+        <item>Mr.</item>
+        <item>Miss.</item>
+        <item>Mrs.</item>
+    </string-array>
+    <string-array name="spinner_test">
+        <item>Kotak</item>
+        <item>ICICI</item>
+        <item>HDFC</item>
+        <item>ICICI</item>
+    </string-array>
+    <string-array name="ulb_names_array">
+        <item>ULB Name</item>
+        <item>Anandapur(M)</item>
+        <item>Attabira(N)</item>
+        <item>Baliguda(N)</item>
+        <item>Balugaon(N)</item>
+        <item>Banpur(N)</item>
+        <item>Barapalli(N)</item>
+        <item>Barbil(M)</item>
+        <item>Bargarh(M)</item>
+        <item>Bhawanipatana(M)</item>
+        <item>Bhubaneswar(MC)</item>
+        <item>Binika(N)</item>
+        <item>Bolangir(M)</item>
+        <item>Boudhgarh(N)</item>
+        <item>Champua(N)</item>
+        <item>Chandabali(N)</item>
+        <item>Daspalla(N)</item>
+        <item>Deogarh(N)</item>
+        <item>Dhamnagar(N)</item>
+        <item>Dharmagarh(N)</item>
+        <item>G.Udayagiri(N)</item>
+        <item>Jatni(M)</item>
+        <item>Joda(M)</item>
+        <item>Junagarh(N)</item>
+        <item>Kantabanjhi(N)</item>
+        <item>Keonjhargarh(M)</item>
+        <item>Kesinga(N)</item>
+        <item>Khandapada(N)</item>
+        <item>Khurda(M)</item>
+        <item>Konark(N)</item>
+        <item>Kuchinda(N)</item>
+        <item>Nayagarh(N)</item>
+        <item>Nimapara(N)</item>
+        <item>Padmapur(N)</item>
+        <item>Patnagarh(N)</item>
+        <item>Phulbani(M)</item>
+        <item>Pipili(N)</item>
+        <item>Puri(M)</item>
+        <item>Ranpur(N)</item>
+        <item>Redhakhol(N)</item>
+        <item>Sambalpur(MC)</item>
+        <item>Sonepur(M)</item>
+        <item>Tarva(N)</item>
+        <item>Titlagarh(N)</item>
+        <item>Tusura(N)</item>
+    </string-array>
+    <string-array name="vehicle_arrays">
+        <item>Vehicle Type</item>
+        <item>2 Wheeler</item>
+        <item>3 Wheeler</item>
+        <item>4 Wheeler</item>
+        <item>LCV/Heavy(Mini truck/truck/tractor/bus)</item>
+    </string-array>
+    <string-array name="walletTypes">
+        <item>Select</item>
+        <item>Gpr</item>
+        <item>Wearable</item>
+        <item>Nayara</item>
+        <item>MultiWallet</item>
+    </string-array>
+    <string-array name="years_stay_arrays">
+        <item>Years of Stay</item>
+        <item>0 to 1 Year</item>
+        <item>1 to 3 Years</item>
+        <item>3 to 5 Years</item>
+        <item>Above 5 Years</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/csParentView" android:tag="layout/item_list_popup_window_0" android:background="@color/white" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mbs.sahipay.fonts.Roboto_Medium_Textview android:textSize="@dimen/font_16" android:textColor="@color/text_light_black" android:gravity="start" android:id="@id/tvFilter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16sdp" app:layout_constraintBottom_toBottomOf="@id/imgSelection" app:layout_constraintEnd_toStartOf="@id/imgSelection" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/imgSelection" />
+    <CheckBox android:id="@id/imgSelection" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/_40sdp" android:layout_marginStart="@dimen/_6sdp" android:layout_marginEnd="@dimen/_10sdp" android:buttonTint="@color/colorPrimary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

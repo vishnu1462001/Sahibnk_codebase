@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rr_otp" android:tag="layout/activity_capture_salfi_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_sim_binding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/rl_success" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <LinearLayout android:gravity="bottom|center" android:id="@id/suc_ll_p1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/sbm_logo" />
+            </LinearLayout>
+            <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/suc_ll_p2" android:background="@drawable/sb_bg_bottom" android:padding="@dimen/dimen_20" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.2">
+                <com.mbs.sahipay.fonts.Roboto_Bold_TextView android:textSize="@dimen/dimen_25" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_50" android:text="Welcome Back!" android:layout_alignParentTop="true" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_otp_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_50" android:layout_below="@id/tv_text">
+                    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_2" />
+                </LinearLayout>
+                <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_14" android:textColor="@color/red" android:gravity="center|left" android:id="@id/tv_text_error" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_2" android:text="" android:layout_below="@id/ll_otp_box" />
+                <LinearLayout android:gravity="end" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:layout_below="@id/tv_text_error" android:layout_alignParentEnd="true">
+                    <TextView android:textColor="@color/white" android:id="@id/tv_otp_timer" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+                    <TextView android:textColor="@color/white" android:id="@id/tv_resend_otp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Resend OTP" />
+                </LinearLayout>
+                <TextView android:textColor="@color/white" android:gravity="start" android:id="@id/tv_note" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5" android:text="@string/alert_sim_binding" android:layout_below="@id/linearLayout" />
+                <Button android:textSize="@dimen/dimen_18" android:textColor="@color/black" android:gravity="center" android:id="@id/btnVerifyOtp" android:background="@drawable/sb_bg_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Token" android:maxLines="1" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@id/pr_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

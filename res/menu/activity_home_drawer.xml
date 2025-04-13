@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/gp1" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_changepin" android:id="@id/nav_change_mpin" android:title="Change MPIN" />
+    </group>
+    <group android:id="@id/gp3" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_agent_icard" android:id="@id/nav_agent_icard" android:title="Agent ID Card" />
+    </group>
+    <group android:id="@id/gp4" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_serviceable" android:id="@id/nav_serviceable_pincode" android:title="Serviceable Pin Code" />
+    </group>
+    <group android:id="@id/gp7" android:checkableBehavior="none">
+        <item android:icon="@drawable/field_connect_svg" android:id="@id/nav_field_connect" android:title="My Calendar" />
+    </group>
+    <group android:id="@id/gp5" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_logout" android:id="@id/nav_Logout" android:title="Logout" />
+    </group>
+    <group android:id="@id/gp6" android:checkableBehavior="none">
+        <item android:id="@id/nav_more" android:visible="true" android:title="" />
+    </group>
+</menu>

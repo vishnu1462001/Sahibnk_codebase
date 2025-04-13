@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/my_list_fragment_0" android:background="@color/app_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_tab" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_55" android:weightSum="1.0">
+        <com.mbs.sahipay.fonts.Roboto_Regular_Button android:textStyle="bold" android:textColor="@color/white" android:id="@id/freshleads" android:background="@drawable/btn_shadow" android:layout_width="0.0dip" android:layout_height="@dimen/dimen_45" android:layout_margin="@dimen/dimen_1" android:text="New" android:layout_weight="0.5" />
+        <com.mbs.sahipay.fonts.Roboto_Regular_Button android:textStyle="bold" android:textColor="@color/white" android:id="@id/reworkleads" android:background="@drawable/btn_shadow_deactive" android:layout_width="0.0dip" android:layout_height="@dimen/dimen_45" android:layout_margin="@dimen/dimen_1" android:text="Rework" android:layout_weight="0.5" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_ekyc" android:padding="@dimen/dimen_5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_tab" />
+    <ImageView android:id="@id/iv_filter" android:background="@drawable/badge_circle_transparent" android:padding="@dimen/dimen_5" android:paddingTop="@dimen/dimen_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10" android:layout_marginBottom="@dimen/dimen_10" android:src="@drawable/ic_filter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dimen_10" android:layout_marginEnd="@dimen/dimen_10" />
+    <com.mbs.sahipay.fonts.Roboto_Regular_Textview android:textSize="@dimen/dimen_20" android:gravity="center" android:id="@id/tv_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sr_list_error_mssg" />
+    <ProgressBar android:id="@id/prg_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

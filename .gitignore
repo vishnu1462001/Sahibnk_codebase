@@ -1,0 +1,8 @@
+build/
+.gradle/
+local.properties
+.idea/
+*.iml
+*.dex
+*.apk
+# Add any other temporary or build-related files/directories

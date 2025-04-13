@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/fragment_capture_document_signature_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/dimen_10">
+        <RelativeLayout android:id="@id/layout_camera_placeholder_image" android:padding="@dimen/dimen_40" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_50" android:layout_marginBottom="@dimen/dimen_100" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/iv_camera_placeholder_image" android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/signature_pic" />
+        </RelativeLayout>
+        <Button android:id="@id/btn_open_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/click_signature" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_proceed" app:layout_constraintStart_toStartOf="parent" style="@style/AppDefaultButton" />
+        <Button android:id="@id/btn_proceed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="@string/proceed" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_open_camera" style="@style/AppDefaultButton" />
+        <ProgressBar android:id="@id/prggg_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_terms_conditions_idfc_0" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/sv_text_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/btn_back" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/dimen_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <CheckBox android:gravity="top" android:id="@id/cb_term_first" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="@string/idfc_tnc_1" android:buttonTint="@color/colorPrimary" />
+            <CheckBox android:gravity="top" android:id="@id/cb_term_second" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20" android:text="@string/idfc_tnc_2" android:buttonTint="@color/colorPrimary" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_back" android:background="@drawable/btn_shadow" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="1" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_proceed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sv_text_container" />
+    <Button android:textSize="@dimen/dimen_18" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_proceed" android:background="@drawable/btn_shadow" android:padding="@dimen/dimen_10" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agree" android:maxLines="1" android:textAllCaps="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_back" app:layout_constraintTop_toBottomOf="@id/sv_text_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

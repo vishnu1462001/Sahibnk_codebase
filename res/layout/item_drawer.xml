@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/item_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/listIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/colorSecondaryText" android:layout_gravity="center_vertical" android:id="@id/listText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_centerVertical="true" />
+    <View android:background="#fff1c30f" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</RelativeLayout>
